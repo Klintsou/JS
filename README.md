@@ -38,12 +38,11 @@ Java Script + React
 						"source.fixAll.eslint": true
 					},
 					"eslint.validate": ["javascript"]
-}
 	VSCode https://code.visualstudio.com/
 		hotkeys https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 	Node.js https://nodejs.org/en (npm https://www.npmjs.com/ - менеджер пакетов)
 
-###Раздел 2: Основы JavaScript
+### Раздел 2: Основы JavaScript
 	Базовые ссылки на html/css
 		selectors https://learn.javascript.ru/css-selectors
 		html https://developer.mozilla.org/ru/docs/Learn/HTML/Introduction_to_HTML
