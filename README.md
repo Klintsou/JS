@@ -7,7 +7,7 @@ Java Script + React
 		https://learn.javascript.ru/
 		https://karmazzin.gitbook.io/eloquentjavascript_ru/
 
-###Раздел 1: Подготовка к работе
+### Раздел 1: Подготовка к работе
 	course repository https://github.com/yankovalenko94/JS_task_answers
 	JS structure https://miro.com/app/board/o9J_kxm_io0=/
 	Список необходимых плагинов (https://docs.google.com/document/d/1NVTjkgn_ZauALdGppyEL9nXMOkV_LBX92cgqC_KI36w/edit): 
@@ -42,7 +42,7 @@ Java Script + React
 		hotkeys https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 	Node.js https://nodejs.org/en (npm https://www.npmjs.com/ - менеджер пакетов)
 
-###Раздел 2: Основы JavaScript
+### Раздел 2: Основы JavaScript
 	Базовые ссылки на html/css
 		selectors https://learn.javascript.ru/css-selectors
 		html https://developer.mozilla.org/ru/docs/Learn/HTML/Introduction_to_HTML
@@ -51,5 +51,3 @@ Java Script + React
 		picture https://drive.google.com/file/d/13TdbVsWl7r_GX6TZJcd60HrtvISkMZ7m/view
 		strict mode - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
 		code-style - https://drive.google.com/file/d/1B8iEjwnWyWasNPhGmGFy43dyQ-5griVN/view
-
-		
