@@ -48,3 +48,6 @@ Java Script + React
 		selectors https://learn.javascript.ru/css-selectors
 		html https://developer.mozilla.org/ru/docs/Learn/HTML/Introduction_to_HTML
 		css https://developer.mozilla.org/ru/docs/Learn/CSS/First_steps
+	Variables and scrict mode
+		strict mode - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+		code-style - https://drive.google.com/file/d/1B8iEjwnWyWasNPhGmGFy43dyQ-5griVN/view
