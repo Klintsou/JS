@@ -27,6 +27,18 @@ Java Script + React
 		ESLint - plugin
 		npm init
 		npm init @eslint/config
+		автоформатирование при сохранение (Ctrl+S)
+			1. настройки (save) Text Editor -> Formatting
+			2. Text Editor -> Default Formatter (ESLint)
+			3. кнопка срава вверху Open Settings (JSON) 
+				    "editor.formatOnSave": true,
+					"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+					надо дописать:
+					"editor.codeActionsOnSave": {
+						"source.fixAll.eslint": true
+					},
+					"eslint.validate": ["javascript"]
+}
 	VSCode https://code.visualstudio.com/
 		hotkeys https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 	Node.js https://nodejs.org/en (npm https://www.npmjs.com/ - менеджер пакетов)
