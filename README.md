@@ -7,7 +7,7 @@ Java Script + React
 		https://learn.javascript.ru/
 		https://karmazzin.gitbook.io/eloquentjavascript_ru/
 
-###Раздел 1: Подготовка к работе
+### Раздел 1: Подготовка к работе
 	course repository https://github.com/yankovalenko94/JS_task_answers
 	JS structure https://miro.com/app/board/o9J_kxm_io0=/
 	Список необходимых плагинов (https://docs.google.com/document/d/1NVTjkgn_ZauALdGppyEL9nXMOkV_LBX92cgqC_KI36w/edit): 
