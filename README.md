@@ -61,4 +61,7 @@ Java Script + React
 		впринципе как в java
 		=== строго сравнение, значение и тип
 		приоритеты https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table
-		
+	Сетевые протоколы
+		HTTP protocol https://developer.mozilla.org/ru/docs/Web/HTTP/Overview
+		HTTPS vs SSH в git https://ourtechroom.com/tech/https-vs-ssh-in-git/
+		Git SSH https://docs.github.com/en/authentication/connecting-to-github-with-ssh
