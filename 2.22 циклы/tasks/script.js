@@ -1,6 +1,13 @@
 const lines = 5;
 let result = '';
-// Проверяется именно переменная result, формируйте строку в ней
+// нарисовать в result
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+//***********
+// решение ментора https://github.com/yankovalenko94/JS_task_answers/blob/master/Tests/1_cycles_and_conditions/pyramid.js
 
 let starsCounter;
 for (let i = 0; i <= lines + 0; i++) {
