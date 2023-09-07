@@ -65,3 +65,6 @@ Java Script + React
 		HTTP protocol https://developer.mozilla.org/ru/docs/Web/HTTP/Overview
 		HTTPS vs SSH в git https://ourtechroom.com/tech/https-vs-ssh-in-git/
 		Git SSH https://docs.github.com/en/authentication/connecting-to-github-with-ssh
+	Условия
+		https://developer.mozilla.org/ru/docs/Learn/JavaScript/Building_blocks/conditionals
+		
