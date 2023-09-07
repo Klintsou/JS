@@ -67,4 +67,8 @@ Java Script + React
 		Git SSH https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 	Условия
 		https://developer.mozilla.org/ru/docs/Learn/JavaScript/Building_blocks/conditionals
-		
+	Логические операторы
+		приоритет https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+		number если больше 0 значит boolean значание is true
+		логическая операция всегда что то возвращает
+			
