@@ -33,12 +33,12 @@ const personalMovieDB = {
     privat: false
 };
 
-const a = prompt('Один из последних просмотренных фильмов?', ''),
-      b = prompt('На сколько оцените его?', ''),
-      c = prompt('Один из последних просмотренных фильмов?', ''),
-      d = prompt('На сколько оцените его?', '');
+const firstPersonFilm = prompt('Один из последних просмотренных фильмов?', ''),
+      firstPersonFilmRating = prompt('На сколько оцените его?', ''),
+      secondPersonFilm = prompt('Один из последних просмотренных фильмов?', ''),
+      secondPersonFilmRating = prompt('На сколько оцените его?', '');
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+personalMovieDB.movies[firstPersonFilm] = firstPersonFilmRating;
+personalMovieDB.movies[secondPersonFilm] = secondPersonFilmRating;
 
 console.log(personalMovieDB);
