@@ -53,3 +53,7 @@ Java Script + React
 		code-style - https://drive.google.com/file/d/1B8iEjwnWyWasNPhGmGFy43dyQ-5griVN/view
 	Взаимодействие с пользователем
 		alert, confirm, prompt, +prompt (преобразование) - работают только внутри браузера
+	Интерполяция (ES6) - вместо конкатенация как в Java
+		косые ковычки ``
+			const variable = 'toys';
+			console.log(`https://someurl.com${vaiable}/5`);
