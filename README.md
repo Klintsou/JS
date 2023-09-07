@@ -57,3 +57,8 @@ Java Script + React
 		косые ковычки ``
 			const variable = 'toys';
 			console.log(`https://someurl.com${vaiable}/5`);
+	Операторы JS
+		впринципе как в java
+		=== строго сравнение, значение и тип
+		приоритеты https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table
+		
