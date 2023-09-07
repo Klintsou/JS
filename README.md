@@ -75,4 +75,6 @@ Java Script + React
 		3 способа как в JAVA (while, do-while, for)
 		https://drive.google.com/file/d/1oM1HzpbJTwBi5pdgeHjS3j2FW_FqKy1u/view
 		https://learn.javascript.ru/while-for
-			
+	Функции
+		классификация функций, таблица https://drive.google.com/file/d/1Xuw7feRJ-2ZzE_U7E4MZMXh1HLVljcU8/view
+		замыкание функции - сама функция со всеми внешними переменными которые ей доступны	
