@@ -71,4 +71,8 @@ Java Script + React
 		приоритет https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 		number если больше 0 значит boolean значание is true
 		логическая операция всегда что то возвращает
+	Циклы
+		3 способа как в JAVA
+		https://drive.google.com/file/d/1oM1HzpbJTwBi5pdgeHjS3j2FW_FqKy1u/view
+		https://learn.javascript.ru/while-for
 			
