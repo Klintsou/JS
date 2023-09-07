@@ -51,3 +51,5 @@ Java Script + React
 		picture https://drive.google.com/file/d/13TdbVsWl7r_GX6TZJcd60HrtvISkMZ7m/view
 		strict mode - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
 		code-style - https://drive.google.com/file/d/1B8iEjwnWyWasNPhGmGFy43dyQ-5griVN/view
+	Взаимодействие с пользователем
+		alert, confirm, prompt, +prompt (преобразование) - работают только внутри браузера
