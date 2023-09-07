@@ -72,7 +72,7 @@ Java Script + React
 		number если больше 0 значит boolean значание is true
 		логическая операция всегда что то возвращает
 	Циклы
-		3 способа как в JAVA
+		3 способа как в JAVA (while, do-while, for)
 		https://drive.google.com/file/d/1oM1HzpbJTwBi5pdgeHjS3j2FW_FqKy1u/view
 		https://learn.javascript.ru/while-for
 			
