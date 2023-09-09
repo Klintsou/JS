@@ -77,4 +77,10 @@ Java Script + React
 		https://learn.javascript.ru/while-for
 	Функции
 		классификация функций, таблица https://drive.google.com/file/d/1Xuw7feRJ-2ZzE_U7E4MZMXh1HLVljcU8/view
-		замыкание функции - сама функция со всеми внешними переменными которые ей доступны	
+		замыкание функции - сама функция со всеми внешними переменными которые ей доступны
+	Методы строк и чисел
+		числа - https://learn.javascript.ru/number
+				https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number
+		строки - https://learn.javascript.ru/string
+				 https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String
+		console.dir(Number) - просмотреть обьекты (включая методы)
