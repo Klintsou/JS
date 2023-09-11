@@ -85,4 +85,5 @@ Java Script + React
 				 https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String
 				 trim https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
 		console.dir(Number) - просмотреть обьекты (включая методы)
-		
+	Callback functions
+		https://learn.javascript.ru/callbacks
