@@ -87,3 +87,10 @@ Java Script + React
 		console.dir(Number) - просмотреть обьекты (включая методы)
 	Callback functions
 		https://learn.javascript.ru/callbacks
+	Objects
+		https://javascript.ru/tutorial/object/intro
+		деструктуризация обьекта https://learn.javascript.ru/destructuring#destrukturizatsiya-obekta
+		Дескрипторы, геттеры и сеттеры свойств
+			https://learn.javascript.ru/descriptors-getters-setters
+		for .. in - переборка свойств
+			https://learn.javascript.ru/object-for-in
