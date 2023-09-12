@@ -9,4 +9,5 @@ let obj = {
 }
 
 console.log(obj.lastname.abb)
-console.log(obj[1])
+console.log(obj.["lastname"]["abb"])
+
