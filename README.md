@@ -100,3 +100,8 @@ Java Script + React
 			https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/for...of#%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%B8%D1%8F_%D0%BC%D0%B5%D0%B6%D0%B4%D1%83_for...of_%D0%B8_for...in
 		Алгоритмы в JavaScript
 			https://web.archive.org/web/20221025084508/http://mathhelpplanet.com/static.php?p=javascript-algoritmy-poiska
+	Перадача по ссылке или по значению
+		примитивы передаются по значению
+		обьекты передает ссылку
+		статья про клонирование https://medium.com/@stasonmars/%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BE%D0%B2-%D0%B2-javascript-d25c261a7aff
+		Object assign https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
