@@ -43,6 +43,9 @@ Java Script + React
 	Node.js https://nodejs.org/en (npm https://www.npmjs.com/ - менеджер пакетов)
 
 ### Раздел 2: Основы JavaScript
+
+	classification https://drive.google.com/file/d/1Nm2PDGru199Yf0c9l1T-upYbi0UkEj1F/view
+
 	Базовые ссылки на html/css
 		selectors https://learn.javascript.ru/css-selectors
 		html https://developer.mozilla.org/ru/docs/Learn/HTML/Introduction_to_HTML
@@ -109,3 +112,6 @@ Java Script + React
 		Прототипно ориентированное программирование
 		Про __proto__ https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/proto
 		наследование без proto https://javascript.info/prototype-methods
+	Динамическая типизация
+		матрица сравнений
+			https://dorey.github.io/JavaScript-Equality-Table/
