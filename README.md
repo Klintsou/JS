@@ -130,3 +130,6 @@ Java Script + React
 		addEventListener https://developer.mozilla.org/ru/docs/Web/API/EventTarget/addEventListener
 		event https://developer.mozilla.org/ru/docs/Web/API/Event
 		removeEventListener https://developer.mozilla.org/ru/docs/Web/API/EventTarget/removeEventListener
+	DOM navigation
+		data-attribute https://developer.mozilla.org/ru/docs/Learn/HTML/Howto/Use_data_attributes
+		
