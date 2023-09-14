@@ -124,5 +124,9 @@ Java Script + React
 	Получение элементов со страницы
 		про селекторы https://learn.javascript.ru/css-selectors
 		псевдомассивы https://habr.com/ru/articles/336136/
-
-	
+	События и их обработчики
+		events https://oddler.ru/blog/i63
+		Справочник https://developer.mozilla.org/ru/docs/Web/Events
+		addEventListener https://developer.mozilla.org/ru/docs/Web/API/EventTarget/addEventListener
+		event https://developer.mozilla.org/ru/docs/Web/API/Event
+		removeEventListener https://developer.mozilla.org/ru/docs/Web/API/EventTarget/removeEventListener
