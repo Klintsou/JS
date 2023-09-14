@@ -124,5 +124,5 @@ Java Script + React
 	Получение элементов со страницы
 		про селекторы https://learn.javascript.ru/css-selectors
 		псевдомассивы https://habr.com/ru/articles/336136/
-		
+
 	
