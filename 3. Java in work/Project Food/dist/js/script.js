@@ -84,6 +84,8 @@ window.addEventListener('DOMContentLoaded', function () {
       minutes = timer.querySelector('#minutes'),
       seconds = timer.querySelector('#seconds'),
       timeInterval = setInterval(updateClock, 1000);
+
+    //первый старт (initializing)
     updateClock();
     function updateClock() {
       const t = getTimeRemaining(endtime);

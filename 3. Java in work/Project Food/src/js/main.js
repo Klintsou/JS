@@ -88,6 +88,7 @@ window.addEventListener('DOMContentLoaded', function() {
             seconds = timer.querySelector('#seconds'),
             timeInterval = setInterval(updateClock, 1000);
 
+        //первый старт (initializing)
         updateClock();
 
         function updateClock() {
