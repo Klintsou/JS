@@ -157,3 +157,7 @@ Java Script + React
 		смотри JS\3. Java in work\4.71 document and window\document window screen.docx
 	Конструктор, оператор "new"
 		https://learn.javascript.ru/constructor-new
+	This. Контекст вызова
+		https://tproger.ru/translations/javascript-this-keyword
+	Классы (ES6)
+		Как таковых классов в JS не существует (это синтаксический "сахар")
