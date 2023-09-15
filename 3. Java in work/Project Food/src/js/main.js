@@ -113,18 +113,21 @@ window.addEventListener('DOMContentLoaded', function() {
         modal = document.querySelector('.modal'),
         modalCloseBtn = document.querySelector('[data-close]');
 
+    function openModal() {
+        modal.classList.add('show');
+        modal.classList.remove('hide');
+        // Либо вариант с toggle - но тогда назначить класс в верстке
+        //modal.classList.toggle('show');
+        //убирает скролл
+        document.body.style.overflow = 'hidden';
+        //17 px ширина скролла
+        document.body.style.marginRight = '17px';
+        //если пользователь открыл окно то отменяем таймер
+        clearInterval(modalTimerId);
+    }
+
     modalTrigger.forEach(btn => {
-        btn.addEventListener('click', function() {
-            modal.classList.add('show');
-            modal.classList.remove('hide');
-            // Либо вариант с toggle - но тогда назначить класс в верстке
-            //modal.classList.toggle('show');
-            //убирает скролл
-            document.body.style.overflow = 'hidden';
-            //17 px ширина скролла
-            document.body.style.marginRight = '17px';
-            
-        });
+        btn.addEventListener('click', openModal);
     });
 
     function closeModal() {
@@ -152,4 +155,17 @@ window.addEventListener('DOMContentLoaded', function() {
             closeModal();
         }
     });
+
+    const modalTimerId = setTimeout(openModal, 30000);
+
+    function showModalByScroll() {
+        //если заскролил до конца
+        //pageYOffset - сколько пользователь пролистал сверху
+        if (window.pageYOffset + document.documentElement.clientHeight >= document.documentElement.scrollHeight - 1) {
+            openModal();
+            window.removeEventListener('scroll', showModalByScroll);
+        }
+    }
+    window.addEventListener('scroll', showModalByScroll);
+
 });
