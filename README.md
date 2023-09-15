@@ -155,3 +155,5 @@ Java Script + React
 		статья: https://learn.javascript.ru/date
 	Document, window and screen parameters
 		смотри JS\3. Java in work\4.71 document and window\document window screen.docx
+	Конструктор, оператор "new"
+		https://learn.javascript.ru/constructor-new
