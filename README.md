@@ -97,6 +97,8 @@ Java Script + React
 			https://learn.javascript.ru/descriptors-getters-setters
 		for .. in - переборка свойств
 			https://learn.javascript.ru/object-for-in
+		сокращенная запись обьекта ES6
+			https://attacomsian.com/blog/javascript-object-property-shorthand
 	Массивы и псевдомассивы
 		https://drive.google.com/file/d/17D4THU5-UJtzihybKVjSDHeX67pz3xLR/view
 		отличия for .. of от for .. if
