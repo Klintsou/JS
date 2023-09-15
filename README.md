@@ -153,3 +153,5 @@ Java Script + React
 	Работа с датами
 		документация: https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date
 		статья: https://learn.javascript.ru/date
+	Document, window and screen parameters
+		смотри JS\3. Java in work\4.71 document and window\document window screen.docx
