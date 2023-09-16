@@ -161,3 +161,5 @@ Java Script + React
 		https://tproger.ru/translations/javascript-this-keyword
 	Классы (ES6)
 		Как таковых классов в JS не существует (это синтаксический "сахар")
+			документация https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Classes
+			http://jsraccoon.ru/es6-classes
