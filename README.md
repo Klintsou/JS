@@ -163,3 +163,8 @@ Java Script + React
 		Как таковых классов в JS не существует (это синтаксический "сахар")
 			документация https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Classes
 			http://jsraccoon.ru/es6-classes
+	Rest оператор и параметры по умолчанию (ES6)
+		Аналог Spread (раскладывает сущность раскладывая на отдельные элементы, аналог Java троеточие в параметре ...)
+			https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions/Rest_parameters
+		параметры по умолчанию https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions/Default_parameters
+			как в груви
