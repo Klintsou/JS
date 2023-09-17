@@ -168,3 +168,6 @@ Java Script + React
 			https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions/Rest_parameters
 		параметры по умолчанию https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions/Default_parameters
 			как в груви
+	Локальные серверы
+		MAMP - https://www.mamp.info/en/windows/
+		OS Panel - https://ospanel.io/
