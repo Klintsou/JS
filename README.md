@@ -170,4 +170,4 @@ Java Script + React
 			как в груви
 	Локальные серверы
 		MAMP - https://www.mamp.info/en/windows/
-		OS Panel - https://ospanel.io/
+		OS Panel (Windows) - https://ospanel.io/
