@@ -314,6 +314,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 console.log(data);
                 showThanksModal(message.success);
                 statusMessage.remove();
+            // отрабатывает когда, к примеру не достучался до сервера, либо нет интернета, если к примеру 404 то это не catch
             }).catch(() => {
                 showThanksModal(message.failure);
             }).finally(() => {
