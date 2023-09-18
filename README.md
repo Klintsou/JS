@@ -184,3 +184,11 @@ Java Script + React
 		FormData - ключ-значение, передача с формы и не только (enctype="multipart/form-data")
 			https://developer.mozilla.org/ru/docs/Web/API/FormData/Using_FormData_Objects
 			formData to JSON https://ilikekillnerds.com/2017/09/convert-formdata-json-object/
+	Promise (ES6) технология для работы с асинхронными операциями
+		https://learn.javascript.ru/promise-basics
+		https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise
+		https://stasonmars.ru/javascript/promisy-v-javascript-dlya-chainikov/
+	Fetch API
+		Fetch API предоставляет интерфейс JavaScript для работы с запросами и ответами HTTP
+		https://developer.mozilla.org/ru/docs/Web/API/Fetch_API/Using_Fetch
+		Free fake API for testing and prototyping.	https://jsonplaceholder.typicode.com/

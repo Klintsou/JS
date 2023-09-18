@@ -228,11 +228,12 @@ window.addEventListener('DOMContentLoaded', function () {
       //form.appendChild(statusMessage);
       //добавление после формы, а не внутрь
       form.insertAdjacentElement('afterend', statusMessage);
-      const request = new XMLHttpRequest();
-      request.open('POST', 'server.php');
+
+      //const request = new XMLHttpRequest();
+      //request.open('POST', 'server.php');
       //при отправки formData в php head устанавливать не надо enctype="multipart/form-data"
       //передаем в виде JSON
-      request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
+      // request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
       const formData = new FormData(form);
 
       //перевод в json
@@ -240,21 +241,42 @@ window.addEventListener('DOMContentLoaded', function () {
       formData.forEach(function (value, key) {
         object[key] = value;
       });
-      const json = JSON.stringify(object);
-      request.send(json);
-      request.addEventListener('load', () => {
-        if (request.status === 200) {
-          console.log(request.response);
-          showThanksModal(message.success);
-          //сброска формы
-          form.reset();
-          //удаление сообщения
-          //setTimeout(() => {
-          statusMessage.remove();
-          // }, 2000);
-        } else {
-          showThanksModal(message.failure);
-        }
+      // const json = JSON.stringify(object);
+
+      // request.send(json);
+
+      // request.addEventListener('load', () => {
+      //     if (request.status === 200) {
+      //         console.log(request.response);
+      //         showThanksModal(message.success);
+      //         //сброска формы
+      //         form.reset();
+      //         //удаление сообщения
+      //         //setTimeout(() => {
+      //         statusMessage.remove();
+      //        // }, 2000);
+      //     } else {
+      //         showThanksModal(message.failure);
+      //     }
+      // });
+
+      //fetch is promise
+      fetch('server.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        //можно отправлять и formData, не JSON, тогда headers 'Content-Type' можно убирать
+        body: JSON.stringify(object)
+        //}).then(data => data.text()) // просмотреть ответ от сервера, если не json
+      }).then(data => {
+        console.log(data);
+        showThanksModal(message.success);
+        statusMessage.remove();
+      }).catch(() => {
+        showThanksModal(message.failure);
+      }).finally(() => {
+        form.reset();
       });
     });
   }
