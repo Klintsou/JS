@@ -192,3 +192,9 @@ Java Script + React
 		Fetch API предоставляет интерфейс JavaScript для работы с запросами и ответами HTTP
 		https://developer.mozilla.org/ru/docs/Web/API/Fetch_API/Using_Fetch
 		Free fake API for testing and prototyping.	https://jsonplaceholder.typicode.com/
+	Array methods
+		filter - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+		map - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+		reduce - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+		Object.entries() - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+		
