@@ -197,4 +197,12 @@ Java Script + React
 		map - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 		reduce - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 		Object.entries() - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+	JSON server
+		documentation https://github.com/typicode/json-server
+		npm install json-server --save-dev
+		запуск в терминале     json-server db.json (db.json file path)
+		    если не сработало: npx json-server db.json
+		
+		
+
 		

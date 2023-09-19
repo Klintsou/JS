@@ -346,4 +346,10 @@ window.addEventListener('DOMContentLoaded', function() {
         }, 4000);
     }
 
+    //json server url (сюда можно подставить просто сам файл)
+    //запуск сервера json-server db.json или npx json-server db.json
+    fetch('http://localhost:3000/menu')
+        .then(data => data.json())
+        .then(response => console.log(response));
+
 });
