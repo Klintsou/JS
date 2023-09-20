@@ -210,3 +210,5 @@ Java Script + React
 	LocalStorage
 		статья про localStorage https://tproger.ru/articles/localstorage
 		проверить вместимость хранилища http://dev-test.nemikor.com/web-storage/support-test/
+	getters/setters
+		https://learn.javascript.ru/property-accessors
