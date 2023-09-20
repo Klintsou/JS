@@ -217,3 +217,6 @@ Java Script + React
 	Encapsulation
 		http://www.codenet.ru/progr/cpp/ipn.php
 		private fields https://medium.com/devschacht/javascripts-new-private-class-fields-c60daffe361b
+	Паттерн модуль
+		Все данные модуля существуют в области видимости модуля
+		https://habr.com/ru/companies/ruvds/articles/419997/
