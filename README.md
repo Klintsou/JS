@@ -168,6 +168,8 @@ Java Script + React
 			https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions/Rest_parameters
 		параметры по умолчанию https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions/Default_parameters
 			как в груви
+
+### Раздел 5: продвинутый JavaScript
 	Локальные серверы
 		MAMP - https://www.mamp.info/en/windows/
 		OS Panel (Windows) - https://ospanel.io/
@@ -212,3 +214,6 @@ Java Script + React
 		проверить вместимость хранилища http://dev-test.nemikor.com/web-storage/support-test/
 	getters/setters
 		https://learn.javascript.ru/property-accessors
+	Encapsulation
+		http://www.codenet.ru/progr/cpp/ipn.php
+		private fields https://medium.com/devschacht/javascripts-new-private-class-fields-c60daffe361b
