@@ -197,11 +197,16 @@ Java Script + React
 		map - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 		reduce - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 		Object.entries() - https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+			Object.fromEntries(object) - обратно
 	JSON server
 		documentation https://github.com/typicode/json-server
 		npm install json-server --save-dev
 		запуск в терминале     json-server db.json (db.json file path)
 		    если не сработало: npx json-server db.json
+	Async/Await
+		Всегда работают в паре
+		Async - перед функцией, внутри метода будет асинхронный код
+		Await - оператор, нужно ставить перед теми операциями, перед которыми нужно дождаться ответ (по сути сделать синхронно - но под копотом это не так)
 		
 		
 
