@@ -207,7 +207,6 @@ Java Script + React
 		Всегда работают в паре
 		Async - перед функцией, внутри метода будет асинхронный код
 		Await - оператор, нужно ставить перед теми операциями, перед которыми нужно дождаться ответ (по сути сделать синхронно - но под копотом это не так)
-		
-		
-
-		
+	LocalStorage
+		статья про localStorage https://tproger.ru/articles/localstorage
+		проверить вместимость хранилища http://dev-test.nemikor.com/web-storage/support-test/
