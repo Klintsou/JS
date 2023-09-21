@@ -1,6 +1,9 @@
-json server
+#### json server
 	npx json-server db.json
-start local
+#### start local
 	gulp
-using local server MAMP
+#### using local server MAMP
 	MAMP\htdocs
+#### using Webpack
+	npx webpack
+	
