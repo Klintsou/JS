@@ -220,3 +220,12 @@ Java Script + React
 	Паттерн модуль
 		Все данные модуля существуют в области видимости модуля
 		https://habr.com/ru/companies/ruvds/articles/419997/
+	CommonJS and Webpack
+		CommonJS https://largescalejs.ru/commonjs-modules/
+		Webpack
+			basic setup https://webpack.js.org/guides/getting-started/
+			documentation https://webpack.js.org/
+			режимы работы (mode: development or production) https://webpack.js.org/configuration/mode/
+			devtool https://webpack.js.org/configuration/devtool/
+			modules https://webpack.js.org/concepts/modules/
+				
