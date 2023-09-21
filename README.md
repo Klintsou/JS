@@ -228,4 +228,7 @@ Java Script + React
 			режимы работы (mode: development or production) https://webpack.js.org/configuration/mode/
 			devtool https://webpack.js.org/configuration/devtool/
 			modules https://webpack.js.org/concepts/modules/
+	Module ES6 
+		Чаще всего используется, нежели через CommonJS
+			
 				

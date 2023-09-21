@@ -663,7 +663,15 @@ var __webpack_exports__ = {};
       !*** ./js/modules/timer.js ***!
       \*****************************/
     /***/
-    module => {
+    (__unused_webpack_module, __nested_webpack_exports__, __nested_webpack_require_23528__) => {
+      "use strict";
+
+      __nested_webpack_require_23528__.r(__nested_webpack_exports__);
+      /* harmony export */
+      __nested_webpack_require_23528__.d(__nested_webpack_exports__, {
+        /* harmony export */"default": () => __WEBPACK_DEFAULT_EXPORT__
+        /* harmony export */
+      });
       function timer() {
         // Timer
 
@@ -723,7 +731,9 @@ var __webpack_exports__ = {};
         }
         setClock('.timer', deadline);
       }
-      module.exports = timer;
+
+      /* harmony default export */
+      const __WEBPACK_DEFAULT_EXPORT__ = timer;
 
       /***/
     }
@@ -737,7 +747,7 @@ var __webpack_exports__ = {};
   /******/
   /******/ // The require function
   /******/
-  function __nested_webpack_require_26003__(moduleId) {
+  function __nested_webpack_require_26378__(moduleId) {
     /******/ // Check if module is in cache
     /******/var cachedModule = __webpack_module_cache__[moduleId];
     /******/
@@ -756,7 +766,7 @@ var __webpack_exports__ = {};
     /******/
     /******/ // Execute the module function
     /******/
-    __webpack_modules__[moduleId](module, module.exports, __nested_webpack_require_26003__);
+    __webpack_modules__[moduleId](module, module.exports, __nested_webpack_require_26378__);
     /******/
     /******/ // Return the exports of the module
     /******/
@@ -765,21 +775,115 @@ var __webpack_exports__ = {};
   }
   /******/
   /************************************************************************/
-  var __webpack_exports__ = {};
-  // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+  /******/ /* webpack/runtime/compat get default export */
+  /******/
   (() => {
+    /******/ // getDefaultExport function for compatibility with non-harmony modules
+    /******/__nested_webpack_require_26378__.n = module => {
+      /******/var getter = module && module.__esModule ? /******/() => module['default'] : /******/() => module;
+      /******/
+      __nested_webpack_require_26378__.d(getter, {
+        a: getter
+      });
+      /******/
+      return getter;
+      /******/
+    };
+    /******/
+  })();
+  /******/
+  /******/ /* webpack/runtime/define property getters */
+  /******/
+  (() => {
+    /******/ // define getter functions for harmony exports
+    /******/__nested_webpack_require_26378__.d = (exports, definition) => {
+      /******/for (var key in definition) {
+        /******/if (__nested_webpack_require_26378__.o(definition, key) && !__nested_webpack_require_26378__.o(exports, key)) {
+          /******/Object.defineProperty(exports, key, {
+            enumerable: true,
+            get: definition[key]
+          });
+          /******/
+        }
+        /******/
+      }
+      /******/
+    };
+    /******/
+  })();
+  /******/
+  /******/ /* webpack/runtime/hasOwnProperty shorthand */
+  /******/
+  (() => {
+    /******/__nested_webpack_require_26378__.o = (obj, prop) => Object.prototype.hasOwnProperty.call(obj, prop);
+    /******/
+  })();
+  /******/
+  /******/ /* webpack/runtime/make namespace object */
+  /******/
+  (() => {
+    /******/ // define __esModule on exports
+    /******/__nested_webpack_require_26378__.r = exports => {
+      /******/if (typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+        /******/Object.defineProperty(exports, Symbol.toStringTag, {
+          value: 'Module'
+        });
+        /******/
+      }
+      /******/
+      Object.defineProperty(exports, '__esModule', {
+        value: true
+      });
+      /******/
+    };
+    /******/
+  })();
+  /******/
+  /************************************************************************/
+  var __nested_webpack_exports__ = {};
+  // This entry need to be wrapped in an IIFE because it need to be in strict mode.
+  (() => {
+    "use strict";
+
     /*!**********************!*\
       !*** ./js/script.js ***!
       \**********************/
+    __nested_webpack_require_26378__.r(__nested_webpack_exports__);
+    /* harmony import */
+    var _modules_tabs__WEBPACK_IMPORTED_MODULE_0__ = __nested_webpack_require_26378__( /*! ./modules/tabs */"./js/modules/tabs.js");
+    /* harmony import */
+    var _modules_tabs__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__nested_webpack_require_26378__.n(_modules_tabs__WEBPACK_IMPORTED_MODULE_0__);
+    /* harmony import */
+    var _modules_modal__WEBPACK_IMPORTED_MODULE_1__ = __nested_webpack_require_26378__( /*! ./modules/modal */"./js/modules/modal.js");
+    /* harmony import */
+    var _modules_modal__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__nested_webpack_require_26378__.n(_modules_modal__WEBPACK_IMPORTED_MODULE_1__);
+    /* harmony import */
+    var _modules_timer__WEBPACK_IMPORTED_MODULE_2__ = __nested_webpack_require_26378__( /*! ./modules/timer */"./js/modules/timer.js");
+    /* harmony import */
+    var _modules_cards__WEBPACK_IMPORTED_MODULE_3__ = __nested_webpack_require_26378__( /*! ./modules/cards */"./js/modules/cards.js");
+    /* harmony import */
+    var _modules_cards__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__nested_webpack_require_26378__.n(_modules_cards__WEBPACK_IMPORTED_MODULE_3__);
+    /* harmony import */
+    var _modules_calc__WEBPACK_IMPORTED_MODULE_4__ = __nested_webpack_require_26378__( /*! ./modules/calc */"./js/modules/calc.js");
+    /* harmony import */
+    var _modules_calc__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__nested_webpack_require_26378__.n(_modules_calc__WEBPACK_IMPORTED_MODULE_4__);
+    /* harmony import */
+    var _modules_forms__WEBPACK_IMPORTED_MODULE_5__ = __nested_webpack_require_26378__( /*! ./modules/forms */"./js/modules/forms.js");
+    /* harmony import */
+    var _modules_forms__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__nested_webpack_require_26378__.n(_modules_forms__WEBPACK_IMPORTED_MODULE_5__);
+    /* harmony import */
+    var _modules_slider__WEBPACK_IMPORTED_MODULE_6__ = __nested_webpack_require_26378__( /*! ./modules/slider */"./js/modules/slider.js");
+    /* harmony import */
+    var _modules_slider__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__nested_webpack_require_26378__.n(_modules_slider__WEBPACK_IMPORTED_MODULE_6__);
     window.addEventListener('DOMContentLoaded', function () {
       //.js не надо прописывать. Webpack сам подставляет.
-      const tabs = __nested_webpack_require_26003__( /*! ./modules/tabs */"./js/modules/tabs.js"),
-        modal = __nested_webpack_require_26003__( /*! ./modules/modal */"./js/modules/modal.js"),
-        timer = __nested_webpack_require_26003__( /*! ./modules/timer */"./js/modules/timer.js"),
-        cards = __nested_webpack_require_26003__( /*! ./modules/cards */"./js/modules/cards.js"),
-        calc = __nested_webpack_require_26003__( /*! ./modules/calc */"./js/modules/calc.js"),
-        forms = __nested_webpack_require_26003__( /*! ./modules/forms */"./js/modules/forms.js"),
-        slider = __nested_webpack_require_26003__( /*! ./modules/slider */"./js/modules/slider.js");
+      const tabs = __nested_webpack_require_26378__( /*! ./modules/tabs */"./js/modules/tabs.js"),
+        modal = __nested_webpack_require_26378__( /*! ./modules/modal */"./js/modules/modal.js"),
+        timer = __nested_webpack_require_26378__( /*! ./modules/timer */"./js/modules/timer.js"),
+        cards = __nested_webpack_require_26378__( /*! ./modules/cards */"./js/modules/cards.js"),
+        calc = __nested_webpack_require_26378__( /*! ./modules/calc */"./js/modules/calc.js"),
+        forms = __nested_webpack_require_26378__( /*! ./modules/forms */"./js/modules/forms.js"),
+        slider = __nested_webpack_require_26378__( /*! ./modules/slider */"./js/modules/slider.js");
       tabs();
       modal();
       timer();

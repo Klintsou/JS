@@ -1,8 +1,6 @@
-function timer() {
+function timer(timerSelector, deadline) {
 
     // Timer
-
-    const deadline = '2025-06-11'; //какой-то дедлайн, к примеру получаем из DB 
 
     function getTimeRemaining(endtime) {
         //через parse лучше, можно const t = new Date(endtime) - new Date(),
@@ -62,7 +60,7 @@ function timer() {
         }
     }
 
-    setClock('.timer', deadline);
+    setClock(timerSelector, deadline);
 }
 
-module.exports = timer;
+export default timer;

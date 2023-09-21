@@ -1,3 +1,5 @@
+import { getResource } from "../services/services";
+
 function cards() {
     // Используем классы для создание карточек меню
 
@@ -53,20 +55,6 @@ function cards() {
         });
     });
 
-    async function getResource(url) {
-        //дожидается fetch
-        let res = await fetch(url);
-    
-        //если ошибка, то fetch не выпадает в catch, поэтому обрабатываем как тут
-        if (!res.ok) {
-            //выпадает в консоль
-            throw new Error(`Could not fetch ${url}, status: ${res.status}`);
-        }
-    
-        //дожидается json
-        return await res.json();
-    }
-
     // new MenuCard(
     //     "img/tabs/vegy.jpg",
     //     "vegy",
@@ -95,4 +83,4 @@ function cards() {
     // ).render();
 }
 
-module.exports = cards;
+export default cards;
