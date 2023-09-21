@@ -230,5 +230,7 @@ Java Script + React
 			modules https://webpack.js.org/concepts/modules/
 	Module ES6 
 		Чаще всего используется, нежели через CommonJS
+	Try/Catch
+		https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/try...catch
 			
 				
